@@ -6,7 +6,7 @@ import json
 app = Flask(__name__)
 
 JWT_API = "https://jwtsemygen.vercel.app/token?key=SEMY&uid={uid}&password={password}"
-INFO_API = "https://infosemy.vercel.app/ajay-info?uid={account_id}&region=IND"
+INFO_API = "https://infosemy.vercel.app/semy-info?uid={account_id}&region=IND"
 
 # ---------------- JWT Decode ----------------
 def decode_jwt(token):
