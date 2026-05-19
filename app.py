@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 JWT_API = "https://papajwt.vercel.app/kirito?uid={uid}&password={password}"
-INFO_API = "https://infosemy.vercel.app/semy-info?uid={account_id}&region=IND"
+INFO_API = "https://mafuuuu-info-api.vercel.app/mafu-info?uid={account_id}"
 LAST_API = "https://infopapa.vercel.app/info?uid={uid}&password={password}&level={level}"
 
 
